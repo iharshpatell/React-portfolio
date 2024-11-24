@@ -1,0 +1,51 @@
+:root {
+    /* Colours */
+    --color-text: #eeeeee;
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+
+
+}
+
+/* iPhone SE (375x667) and Galaxy Fold (280x653) */
+@media (max-width: 480px) {
+    :root {
+      --font-size-base: 14px;
+      --font-size-heading: 1.5rem;
+      --font-size-subheading: 1.25rem;
+      --font-size-paragraph: 0.9rem;
+  
+      /* Adjust Colors for Better Readability */
+      --color-primary: #6987d5;
+      --color-secondary: #244b8c;
+    }
+  }
+  
+  /* iPhone 14 Pro (390x844) */
+  @media (max-width: 768px) {
+    :root {
+      --font-size-base: 15px;
+      --font-size-heading: 1.75rem;
+      --font-size-subheading: 1.4rem;
+      --font-size-paragraph: 1rem;
+  
+      --color-primary: #5a7bbf;
+    }
+  }
+  
+  /* iPad Air (820x1180) */
+  @media (max-width: 1024px) {
+    :root {
+      --font-size-base: 16px;
+      --font-size-heading: 2rem;
+      --font-size-subheading: 1.5rem;
+      --font-size-paragraph: 1.1rem;
+  
+      /* Colors remain the same as the default */
+    }
+  }

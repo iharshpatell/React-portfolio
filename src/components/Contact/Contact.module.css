@@ -1,0 +1,180 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 5%; /* Reduce padding for small screens */
+  }
+
+  .text h2 {
+    font-size: 36px; /* Smaller heading font */
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 16px; /* Smaller paragraph font */
+    letter-spacing: 1px;
+  }
+
+  .links {
+    align-items: center;
+    gap: 16px; /* Reduce gap between links */
+  }
+
+  .link {
+    gap: 15px; /* Reduce gap between icon and text */
+  }
+
+  .link a {
+    font-size: 14px; /* Smaller font for links */
+    text-align: center; /* Center-align text */
+  }
+
+  .link img {
+    width: 20px; /* Resize icons */
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .text h2 {
+    font-size: 40px; /* Slightly larger heading */
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+  .links {
+    gap: 18px; /* Increase link gap slightly */
+  }
+
+  .link a {
+    font-size: 16px;
+  }
+
+  .link img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 5%;
+    gap: 20px; /* Adjust gap between text and links */
+  }
+
+  .text h2 {
+    font-size: 48px; /* Reduce heading size */
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .link a {
+    font-size: 18px;
+  }
+
+  .link img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .text h2 {
+    font-size: 28px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  .link a {
+    font-size: 12px;
+  }
+
+  .link img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+

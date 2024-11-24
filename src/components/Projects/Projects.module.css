@@ -1,0 +1,54 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Medium screens: Tablets */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .projects {
+    gap: 12px; /* Reduce gap for tighter layout */
+  }
+}
+
+/* Small screens: Phones (e.g., iPhone SE, Galaxy Fold) */
+@media screen and (max-width: 480px) {
+  .container {
+    margin-left: 5%; /* Reduce margins for narrow screens */
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 25px; /* Reduce font size for better fit */
+  }
+
+  .projects {
+    gap: 10px; /* Adjust gap for compact view */
+    flex-direction: column; /* Stack projects vertically */
+  }
+}

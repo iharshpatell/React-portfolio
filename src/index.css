@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Small Screens: iPhone SE (375x667) and Galaxy Fold (280x653) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px; /* Slightly smaller base font */
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
+/* Medium Screens: iPhone 14 Pro (390x844) */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px; /* Adjust base font size */
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+
+/* Large Screens: iPad Air (820x1180) */
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px; /* Standard font size */
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .container {
+    padding: 25px;
+  }
+}

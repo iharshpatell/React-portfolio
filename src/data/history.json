@@ -1,0 +1,28 @@
+[
+    {
+      "role": "Frontend Developer",
+      "organisation": "engineerHUB",
+      "startDate": "Aug, 2023",
+      "endDate": "Nov, 2023",
+      "experiences": ["Designed, developed, and optimized", "Integrating services, enhancing user experience and implementing testing"],
+      "imageSrc": "history/engineerHUB.png"
+    },
+    {
+      "role": "Web Development Intern",
+      "organisation": "LetsGrowMore",
+      "startDate": "May, 2023",
+      "endDate": "June, 2023",
+      "experiences": ["Worked on given assignment", "Made new webpage"],
+      "imageSrc": "history/letsGrowMore.png"
+    },
+    {
+      "role": "Member of Technical Staff",
+      "organisation": "GeeksForGeeks",
+      "startDate": "Sep, 2023",
+      "endDate": "June, 2024",
+      "experiences": ["Managing the web content", "Articles that goes on site"],
+      "imageSrc": "history/gfg.png"
+    }
+    
+  ]
+  

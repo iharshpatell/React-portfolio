@@ -1,0 +1,178 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.aboutImage {
+  width: 35%;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(165, 215, 232, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+
+.aboutItem:hover {
+  background-size: 100% 100%;
+}
+
+.aboutItem h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    display: none;
+  }
+
+  .aboutItems {
+    margin-top: 29px;
+  }
+
+  .aboutItem {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Media Query for iPhone SE, Galaxy Fold (max-width: 400px) */
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 30px;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+
+  .aboutItem p {
+    font-size: 16px;
+  }
+}
+
+/* Media Query for iPhone 14 Pro (max-width: 420px) */
+@media screen and (max-width: 420px) {
+  .aboutImage {
+    display: none; /* Hide image for small mobile screens */
+  }
+}
+
+/* Media Query for iPad Air (max-width: 820px) */
+@media screen and (max-width: 820px) {
+  .container {
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 40px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    width: 50%; /* Larger image size for tablets */
+    margin-bottom: 30px;
+  }
+
+  .aboutItems {
+    gap: 40px;
+  }
+}
+
+/* Default Styles for Larger Screens */
+@media screen and (min-width: 821px) {
+  .container {
+    padding: 73px;
+    margin-top: 129px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutImage {
+    width: 35%;
+  }
+
+  .aboutItems {
+    gap: 50px;
+  }
+
+  .aboutItem {
+    flex-direction: row; /* Row layout for desktop */
+    align-items: center;
+    padding: 25px;
+  }
+
+  .aboutItem h3 {
+    font-size: 25px;
+  }
+
+  .aboutItem p {
+    font-size: 25px;
+  }
+}

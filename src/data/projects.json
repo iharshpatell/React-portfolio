@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Travel Trove",
+    "imageSrc": "projects/travelTrove.png",
+    "description": "A responsive travel app built with React, Tailwind CSS, and Firebase, featuring user authentication, dynamic pages, and search functionality.",
+    "skills": ["MongoDB", "Express", "React", "Node.js"],
+    "demo": "https://trovetravel.netlify.app/home",
+    "source": "https://github.com/iharshpatell/Travel-Trove"
+  },
+  {
+    "title": "CodePen Clone",
+    "imageSrc": "projects/codePen.png",
+    "description": "A feature-rich CodePen clone for developers to experiment with and showcase front-end skills by creating, editing, and sharing live HTML, CSS, and JavaScript previews.",
+    "skills": ["React", "Firebase", "Tailwind CSS"],
+    "demo": "https://code-pen-clone-hazel.vercel.app/",
+    "source": "https://github.com/iharshpatell/CodePen-Clone"
+  },
+  {
+    "title": "Portfolio",
+    "imageSrc": "projects/portfolio.png",
+    "description": "Designed and developed a personal portfolio website to showcase skills, projects and achievements, featuring a modern, responsive design with interactive elements for an optimal user experience.",
+    "skills": ["React", "TailwindCSS"],
+    "demo": "https://www.harshpatell.in/",
+    "source": "https://github.com/iharshpatell/React-portfolio"
+  }
+]
